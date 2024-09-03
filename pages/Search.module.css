@@ -1,0 +1,117 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .logoutButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e53e3e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c53030;
+  }
+  
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .searchButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .loadingText {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .gifGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .gifImage {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gifImage:hover {
+    transform: scale(1.05);
+  }
+
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .userAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .userEmail {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .logoutButton {
+    background-color: #ff5e57;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #e04e47;
+  }
+  
+  
